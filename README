@@ -1,0 +1,55 @@
+# Project 4: Text Statistics
+
+* Author: Matt Fuller
+* Class: CS121 Section 6
+* Semester: Spring 2017
+
+## Overview
+
+In this program, you are going to implement a program that analyzes 
+text files to generate some useful statistics.
+
+## Compiling and Using
+
+To compile, execute the following command in the main project directory:
+```
+$ javac ProcessText.java
+```
+
+Run the compiled class with the command:
+```
+$ java ProcessText
+```
+
+## Discussion
+I had trouble figuring out how to create a file using the String arguments
+the user inputted into the console.
+
+After creating and importing the neccessary classes, I began creating this
+program by hard-coding a file name so I could test my TextStatistics class.
+  
+One of the most challenging parts about this project for me was using an
+array and the "try-catch" for reading files. This project provided me with
+more practice with arrays and file scanning.  
+
+## Testing
+
+To test the project, execute the following command in the main project directory:
+```
+$ ./autograde.sh
+```
+
+If you get a "Permission Denied" error, you must make the autograde.sh script executable 
+using the following command.
+```
+
+$ chmod +x autograde.sh
+```
+
+Then execute the following command in the main project directory again:
+```
+$ ./autograde.sh
+```
+
+This will run the project to make sure everything works properly and is will print the 
+results to the console. 
